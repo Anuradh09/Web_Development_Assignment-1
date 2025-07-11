@@ -1,0 +1,374 @@
+/* My_first_Assignment index.html*/
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-optical-sizing: auto;
+  background: #F5F8FF;  
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 40px;
+  background: url('images/nav-bg.png') no-repeat center/cover, #fff;
+}
+
+.nav-logo {
+  font-weight: 800;
+  font-size: 32px;
+  color: #4E47FF;
+  letter-spacing: 2px;
+}
+
+.btn-signup {
+  background: #4E47FF;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-signup:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(99,102,241,0.15);
+}
+
+/* Banner */
+.banner-section, .navbar{
+  background: center/cover;
+  text-align: center;
+  padding: 60px 20px 80px 20px;
+  background-image: url('../Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+}
+
+.banner-title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 32px;
+}
+
+.btn-primary {
+  background: #4E47FF;
+  color: #ffff;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(99,102,241,0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background: #4f46e5;
+  transform: scale(1.06);
+}
+
+/* Action Section */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 78px;
+  padding: 70px 60px;
+  max-width: 64%;
+  margin: 0 auto;
+}
+
+.action-left {
+  flex: 1;
+  font-size: 24px;
+  margin: 0 auto;
+
+}
+
+.action-left h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.action-left p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  padding: 0px 0px 20px 0px;
+  text-align: left;
+}
+
+.action-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.action-img {
+  max-width: 80%;
+  border-radius: 17%;
+}
+/* Productive Users Section */
+.users-section {
+  background: #D6DDED;
+  text-align: center;
+  border-radius: 34px;
+  padding: 50px 70px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+
+.users-title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  padding: 10px 0px 10px 0px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 36px;
+  color: #252432;
+  
+}
+
+.users-stats {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.stat {
+  background: #D6DDED;
+}
+
+.stat-number {
+  font-size: 50px;
+  font-weight: 800;
+  color: #4E47FF;
+}
+
+.stat-label {
+  color: #757575;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+/* Feedback Section */
+.feedback-section {
+  padding: 56px 20px;
+  text-align: center;
+}
+
+.feedback-title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+  
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.feedback-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 32px 24px;
+  width: 19.5%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stars {
+  color: #fbbf24;
+  margin-bottom: 8px;
+}
+
+.feedback-text {
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #22223b;
+}
+
+.feedback-sub {
+  font-size: 1rem;
+  color: #757575;
+  margin-bottom: 18px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.reviewer-date {
+  font-size: 0.95rem;
+  color: #b7b7b7;
+}
+
+/* Focus Section */
+.focus-section {
+  background-color:#FFFFFF;
+  text-align: center;
+  padding: 56px 20px;
+  max-width: 71%;
+  margin: 0 auto;
+}
+
+.focus-title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.focus-color{
+  color: #b7b7b7;
+}
+
+.focus-img {
+  margin-top: 24px;
+  max-width: 75%;
+  border-radius: 36px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 56px 20px;
+  max-width: 75%;
+  margin: 0 auto 48px auto;
+  border-radius: 18px;
+}
+
+.contact-left {
+  flex: 1;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 4%;
+
+}
+
+.contact-left h2 {
+display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #181818;
+  padding: 100px 20px 100px 20px;
+  margin: 0 auto;
+  text-align: left;
+  justify-content: center;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} 
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: none;
+  background: #f8fafc;
+  transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #6366f1;
+  outline: none;
+}
+
+/* Footer */
+.footer {
+  background: #FFFFFF;
+  text-align: center;
+  padding: 100px 20px 100px 20px;
+}
+
+.footer-logo {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  color: #757575;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #757575;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #4f46e5;
+}
